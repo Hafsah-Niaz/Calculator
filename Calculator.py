@@ -11,10 +11,12 @@ def show(value):
     global expression
     expression+=value
     label_result.config(text=expression)
+    
 def clear():
     global expression
     expression=" "
     label_result.config(text=expression)
+    
 def result():
     global expression
     result=" "
@@ -23,17 +25,17 @@ def result():
     else:
         result="error"
         expression=" "
-
     label_result.config(text=result)
+    
 def delete():
     global expression
     expression=expression[:-1]
     label_result.config(text=expression)
 
 
-
 label_result=Label(root,width=17,height=2,bg="pink",text=" ",font=("areal",30))
 label_result.place(x=0,y=0)
+
 Button(root,text="C",bg="white",width=12,height=2,command=lambda:clear()).place(x=3,y=100)
 Button(root,text="/",bg="white",width=12,height=2,command=lambda:show("/")).place(x=100,y=100)
 Button(root,text="%",bg="white",width=12,height=2,command=lambda:show("%")).place(x=200,y=100)
