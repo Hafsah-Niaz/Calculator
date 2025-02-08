@@ -1,5 +1,14 @@
 # Calculator
-I made a calculator in Python language using the Tkinter module.
+Simple Calculator 
+Overview
+This is a basic Calculator application built using Python and Tkinter. It provides a graphical user interface (GUI) for performing basic arithmetic operations such as addition, subtraction, multiplication, division, and percentage. The calculator also supports features like clearing the input, deleting the last entered character, and showing the result.
+
+Features
+Basic Arithmetic Operations: Addition, Subtraction, Multiplication, Division, and Percentage.
+Clear Screen: Clears the input and result screen.
+Delete Last Character: Deletes the last character from the expression.
+Decimal Support: Supports decimal input.
+Responsive Interface: The user can interact with the calculator using buttons.
 
 
 
